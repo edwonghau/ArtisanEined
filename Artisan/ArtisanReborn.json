@@ -5,7 +5,7 @@
     "Description": "The all-in-one crafting plugin Reborn.",
     "InternalName": "ArtisanReborn",
     "ApplicableVersion": "any",
-    "IconUrl": "https://github.com/edwonghau/ArtisanReborn/ArtisanReborn.png",
+    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/ArtisanReborn.png",
     "Tags": [
         "crafting"
     ],

@@ -21,9 +21,9 @@
     "DownloadLinkInstall": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
     "DownloadLinkTesting": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
-    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/Artisan/Images/artisanreborn-icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/ArtisanReborn.png",
     "Tags": [
-      "Sea Of Stars"
+        "crafting"
     ]
   }
 ]

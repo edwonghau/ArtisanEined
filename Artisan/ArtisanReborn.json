@@ -1,0 +1,16 @@
+{
+    "Author": "Edward Wong Hau",
+    "Name": "Artisan Reborn",
+    "Punchline": "A 'simple' crafting plugin Reborn.",
+    "Description": "The all-in-one crafting plugin Reborn.",
+    "InternalName": "ArtisanReborn",
+    "ApplicableVersion": "any",
+    "IconUrl": "https://github.com/edwonghau/ArtisanReborn/ArtisanReborn.png",
+    "Tags": [
+        "crafting"
+    ],
+    "Changelog": "",
+    "RepoUrl": "https://github.com/edwonghau/ArtisanReborn",
+    "DalamudApiLevel": 12,
+    "AcceptsFeedback": true
+}

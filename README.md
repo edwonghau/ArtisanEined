@@ -1,14 +1,13 @@
 <!-- Repository Header Begin -->
 <div align="center">
-<img src="https://love.puni.sh/resources/artisan.svg" alt="Artisan IconUrl" width="15%">
+<img src="https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/Artisan/Images/artisanreborn-icon.png" alt="Artisan IconUrl" width="15%">
 <br>
-<img src="https://github.com/PunishXIV/Artisan/blob/050a58be7b0ce94c959c17e43dabecb65e38a55c/PunishImages/artisan.png" width="30%" />
+<img src="https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/Artisan/Images/artisanreborn.png" width="30%" />
 
-Crafting Automation Plugin/Helper for FFXIV
+Reborn Crafting Automation Plugin/Helper for FFXIV
 
-[![image](https://discordapp.com/api/guilds/1001823907193552978/embed.png?style=banner2)](https://discord.gg/Zzrcc8kmvy)
+This is a fork of Taurenkey's Artisan Reborn found at `https://github.com/PunishXIV/Artisan`. The main reason of the fork is to provide interactions with Gather Buddy Reborn.
 
 Repo Url: 
-
-`https://love.puni.sh/ment.json`
+`https://github.com/edwonghau/ArtisanReborn`
 </div>

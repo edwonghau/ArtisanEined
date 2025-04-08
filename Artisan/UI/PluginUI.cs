@@ -115,7 +115,7 @@ namespace Artisan.UI
                     ImGui.PushStyleVar(ImGuiStyleVar.SelectableTextAlign, new Vector2(0.5f, 0.5f));
                     using (var leftChild = ImRaii.Child($"###ArtisanLeftSide", regionSize with { Y = topLeftSideHeight }, false, ImGuiWindowFlags.NoDecoration))
                     {
-                        var imagePath = Path.Combine(Svc.PluginInterface.AssemblyLocation.DirectoryName!, "Images/artisan-icon.png");
+                        var imagePath = Path.Combine(Svc.PluginInterface.AssemblyLocation.DirectoryName!, "Images/artisanreborn-icon.png");
 
                         if (ThreadLoadImageHandler.TryGetTextureWrap(imagePath, out var logo))
                         {
@@ -206,7 +206,7 @@ namespace Artisan.UI
                                 CraftingListUI.Draw();
                                 break;
                             case OpenWindow.About:
-                                AboutTab.Draw("Artisan");
+                                AboutTab.Draw("ArtisanReborn");
                                 break;
                             case OpenWindow.Debug:
                                 DebugTab.Draw();
@@ -243,7 +243,7 @@ namespace Artisan.UI
 
         private void DrawOverview()
         {
-            var imagePath = Path.Combine(Svc.PluginInterface.AssemblyLocation.DirectoryName!, "Images/artisan.png");
+            var imagePath = Path.Combine(Svc.PluginInterface.AssemblyLocation.DirectoryName!, "Images/artisanreborn.png");
 
             if (ThreadLoadImageHandler.TryGetTextureWrap(imagePath, out var logo))
             {

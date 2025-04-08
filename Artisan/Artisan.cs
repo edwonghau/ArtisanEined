@@ -26,7 +26,8 @@ namespace Artisan;
 
 public unsafe class Artisan : IDalamudPlugin
 {
-    public string Name => "Artisan";
+    public string Name => "ArtisanReborn";
+    public string InternalName => Name;
     private const string commandName = "/artisan";
     internal static Artisan P = null!;
     internal PluginUI PluginUi;
@@ -45,7 +46,7 @@ public unsafe class Artisan : IDalamudPlugin
     public Artisan(IDalamudPluginInterface pluginInterface)
     {
         ECommonsMain.Init(pluginInterface, this, Module.All);
-        PunishLibMain.Init(pluginInterface, "Artisan", new AboutPlugin() { Sponsor = "https://ko-fi.com/taurenkey" });
+        PunishLibMain.Init(pluginInterface, "ArtisanReborn", new AboutPlugin() { Sponsor = "https://github.com/edwonghau/ArtisanReborn" });
         P = this;
 
         LuminaSheets.Init();
@@ -66,7 +67,7 @@ public unsafe class Artisan : IDalamudPlugin
 
         Svc.Commands.AddHandler(commandName, new CommandInfo(OnCommand)
         {
-            HelpMessage = "Opens the Artisan menu.\n" +
+            HelpMessage = "Opens the Artisan Reborn menu.\n" +
             "/artisan lists → Open Lists.\n" +
             "/artisan lists <ID> → Opens specific list by ID.\n" +
             "/artisan lists <ID> start → Starts specific list by ID.\n" +
@@ -77,8 +78,15 @@ public unsafe class Artisan : IDalamudPlugin
             "/artisan settings → Open Settings.\n" +
             "/artisan workshops → Open FC Workshops.\n" +
             "/artisan builder → Open List Builder.\n" +
-            "/artisan automode → Toggles Automatic Action Execution Mode on/off.",
+            "/artisan automode → Toggles Automatic Action Execution Mode on/off.\n" +
+            "/arb can also be used as shortcut to the above commands",
             ShowInHelp = true,
+        });
+
+        Svc.Commands.AddHandler("/arb", new CommandInfo(OnCommand)
+        {
+            HelpMessage="",
+            ShowInHelp = false
         });
 
         Svc.PluginInterface.UiBuilder.Draw += ws.Draw;
@@ -222,6 +230,7 @@ public unsafe class Artisan : IDalamudPlugin
         PluginUi.Dispose();
 
         Svc.Commands.RemoveHandler(commandName);
+        Svc.Commands.RemoveHandler("/arb");
         Svc.PluginInterface.UiBuilder.OpenConfigUi -= DrawConfigUI;
         Svc.PluginInterface.UiBuilder.Draw -= ws.Draw;
         Svc.PluginInterface.UiBuilder.OpenMainUi -= DrawConfigUI;

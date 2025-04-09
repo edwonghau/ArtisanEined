@@ -6,9 +6,11 @@
 
 Crafting Automation Plugin/Helper for FFXIV Ein'd
 
+Add `https://raw.githubusercontent.com/edwonghau/ArtisanEined/refs/heads/main/repo.json` to Dalamud
+
 This is a fork of Taurenkey's Artisan Reborn found at `https://github.com/PunishXIV/Artisan`.
+
 The main reason of the fork is to provide interactions with Gather Buddy Reborn, `https://github.com/FFXIV-CombatReborn/GatherBuddyReborn`.
 
-Repo Url: 
-`https://github.com/edwonghau/ArtisanEined`
+Repo Url: `https://github.com/edwonghau/ArtisanEined`
 </div>

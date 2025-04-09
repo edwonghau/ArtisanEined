@@ -1,0 +1,16 @@
+{
+    "Author": "Edward Wong Hau",
+    "Name": "Artisan Eined",
+    "Punchline": "A 'simple' crafting plugin that Ein got a hold of.",
+    "Description": "The all-in-one crafting plugin Eined.",
+    "InternalName": "ArtisanEined",
+    "ApplicableVersion": "any",
+    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanEined/refs/heads/main/ArtisanEined.png",
+    "Tags": [
+        "crafting"
+    ],
+    "Changelog": "",
+    "RepoUrl": "https://github.com/edwonghau/ArtisanEined",
+    "DalamudApiLevel": 12,
+    "AcceptsFeedback": true
+}

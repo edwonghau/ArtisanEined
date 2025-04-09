@@ -10,9 +10,9 @@
 
 	<PropertyGroup>
 		<DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
-		<DalamudPluginPath>$(appdata)\XIVLauncher\installedPlugins\ArtisanReborn\$(version)</DalamudPluginPath>
-		<DalamudDevPlugins>$(appdata)\XIVLauncher\devPlugins\ArtisanReborn\</DalamudDevPlugins>
-		<AssemblyName>ArtisanReborn</AssemblyName>
+		<DalamudPluginPath>$(appdata)\XIVLauncher\installedPlugins\Artisaneined\$(version)</DalamudPluginPath>
+		<DalamudDevPlugins>$(appdata)\XIVLauncher\devPlugins\ArtisanEined\</DalamudDevPlugins>
+		<AssemblyName>ArtisanEined</AssemblyName>
 		<RootNamespace>Artisan</RootNamespace>
 		<PackageId>Artisan</PackageId>
 		<Product>Artisan</Product>
@@ -54,13 +54,13 @@
     <None Update="Images\artisan-icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ArtisanReborn.json">
+    <None Update="ArtisanEined.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\artisanreborn-icon.png">
+    <None Update="Images\artisaneined-icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\artisanreborn.png">
+    <None Update="Images\artisaneined.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Images\AutoMode.png">
@@ -84,7 +84,7 @@
     <None Update="Images\ThemeCraftingWindowExample.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ArtisanReborn.json">
+    <None Update="ArtisanEined.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Sounds\Time Up.mp3">
@@ -142,6 +142,6 @@
 	  </Reference>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties manifest_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

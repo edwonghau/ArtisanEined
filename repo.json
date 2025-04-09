@@ -1,13 +1,13 @@
 [
   {
     "Author": "Edward Wong Hau",
-    "Name": "Artisan Reborn",
-    "Punchline": "A 'simple' crafting plugin Reborn.",
-    "Description": "The all-in-one crafting plugin Reborn.",
-    "InternalName": "ArtisanReborn",
+    "Name": "Artisan Eined",
+    "Punchline": "A 'simple' crafting plugin Ein'd.",
+    "Description": "The all-in-one crafting plugin Ein'd",
+    "InternalName": "ArtisanEined",
     "AssemblyVersion": "1.0.0.0",
     "TestingAssemblyVersion": "1.0.0.0",
-    "RepoUrl": "https://github.com/edwonghau/ArtisanReborn",
+    "RepoUrl": "https://github.com/edwonghau/ArtisanEined",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "TestingDalamudApiLevel": 12,
@@ -18,10 +18,10 @@
     "LoadPriority": 0,
     "LoadRequiredState": 2,
     "LoadSync": true,
-    "DownloadLinkInstall": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/edwonghau/ArtisanReborn/releases/download/v1.0.0.0/latest.zip",
-    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanReborn/refs/heads/main/ArtisanReborn.png",
+    "DownloadLinkInstall": "https://github.com/edwonghau/ArtisanEined/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/edwonghau/ArtisanEined/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/edwonghau/ArtisanEined/releases/download/v1.0.0.0/latest.zip",
+    "IconUrl": "https://raw.githubusercontent.com/edwonghau/ArtisanEined/refs/heads/main/ArtisanEined.png",
     "Tags": [
         "crafting"
     ]

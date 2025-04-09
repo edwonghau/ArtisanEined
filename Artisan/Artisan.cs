@@ -26,7 +26,7 @@ namespace Artisan;
 
 public unsafe class Artisan : IDalamudPlugin
 {
-    public string Name => "ArtisanReborn";
+    public string Name => "ArtisanEined";
     public string InternalName => Name;
     private const string commandName = "/artisan";
     internal static Artisan P = null!;
@@ -46,7 +46,7 @@ public unsafe class Artisan : IDalamudPlugin
     public Artisan(IDalamudPluginInterface pluginInterface)
     {
         ECommonsMain.Init(pluginInterface, this, Module.All);
-        PunishLibMain.Init(pluginInterface, "ArtisanReborn", new AboutPlugin() { Sponsor = "https://github.com/edwonghau/ArtisanReborn" });
+        PunishLibMain.Init(pluginInterface, "ArtisanEined", new AboutPlugin() { Sponsor = "https://github.com/edwonghau/ArtisanEined" });
         P = this;
 
         LuminaSheets.Init();
@@ -67,7 +67,7 @@ public unsafe class Artisan : IDalamudPlugin
 
         Svc.Commands.AddHandler(commandName, new CommandInfo(OnCommand)
         {
-            HelpMessage = "Opens the Artisan Reborn menu.\n" +
+            HelpMessage = "Opens the Artisan Eined menu.\n" +
             "/artisan lists → Open Lists.\n" +
             "/artisan lists <ID> → Opens specific list by ID.\n" +
             "/artisan lists <ID> start → Starts specific list by ID.\n" +
@@ -79,11 +79,11 @@ public unsafe class Artisan : IDalamudPlugin
             "/artisan workshops → Open FC Workshops.\n" +
             "/artisan builder → Open List Builder.\n" +
             "/artisan automode → Toggles Automatic Action Execution Mode on/off.\n" +
-            "/arb can also be used as shortcut to the above commands",
+            "/are can also be used as shortcut to the above commands",
             ShowInHelp = true,
         });
 
-        Svc.Commands.AddHandler("/arb", new CommandInfo(OnCommand)
+        Svc.Commands.AddHandler("/are", new CommandInfo(OnCommand)
         {
             HelpMessage="",
             ShowInHelp = false
